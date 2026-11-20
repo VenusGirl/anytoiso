@@ -74,7 +74,7 @@
     <LicenseKey>
         <NotPortable>이 라이선스 키는 AnyToISO 설치 버전용입니다. 포터블 버전에는 포터블 라이선스가 필요합니다.</NotPortable>
         <PortableTitle>AnyToISO를 실행하면 포터블 복사본으로 다시 시작됩니다</PortableTitle>
-        <PortableText>이는 포터블 라이선스입니다. 무엇이든ISO는 레지스트리 대신 프로그램 옆의 anytoiso_portable.ini에 설정과 라이선스를 유지합니다.</PortableText>
+        <PortableText>이는 포터블 라이선스입니다. AnyToISO는 레지스트리 대신 프로그램 옆의 anytoiso_portable.ini에 설정과 라이선스를 유지합니다.</PortableText>
         <Version3KeyTitle>이 라이선스 키는 AnyToISO 3.x용입니다</Version3KeyTitle>
         <Version3FoundTitle>AnyToISO 3 라이선스</Version3FoundTitle>
         <Version3UpgradeText>AnyToISO 4는 새로운 유형의 라이선스 키를 사용하므로 버전 3의 키로는 잠금을 해제할 수 없습니다.\n\nAnyToISO 3 라이선스 소유자는 50% 할인을 받고 AnyToISO 4로 업그레이드할 수 있습니다.</Version3UpgradeText>
@@ -156,7 +156,7 @@
             <WritingTrack>트랙 %1을 쓰는 중, 트랙 길이는 %2 섹터입니다</WritingTrack>
             <DiskReadingStopped>%1에서 읽기가 중지되었습니다</DiskReadingStopped>
             <TrackReadingStopped>%1에서 읽기가 중지되었습니다. 다음 트랙으로 계속합니다.</TrackReadingStopped>
-            <ImageIncomplete>이미지는 생성되었지만, %1 섹터 (%2)를 읽을 수 없어 0으로 채워졌습니다. 읽을 수 없는 섹터: 3%</ImageIncomplete>
+            <ImageIncomplete>이미지는 생성되었지만, %1 섹터 (%2)를 읽을 수 없어 0으로 채워졌습니다. 읽을 수 없는 섹터: %3</ImageIncomplete>
             <WriteFailed>출력 파일에 쓰지 못함: %1</WriteFailed>
             <DiskSizeAdjusted>디스크 크기: 보고된 섹터 수 %1, 읽을 섹터 수 %2 (%3)</DiskSizeAdjusted>
         </DiskToISO>
